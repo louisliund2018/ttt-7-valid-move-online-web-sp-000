@@ -17,6 +17,7 @@ def valid_move?(board, index)
     true
   else
     false
+  end
   if position_taken? == false
     true
   elsif position_taken? == true
