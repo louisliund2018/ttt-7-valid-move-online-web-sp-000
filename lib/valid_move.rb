@@ -15,14 +15,13 @@ def valid_move?(board, index)
     true
   else
     false
-
   if position_taken? == false
     true
-  elsif position_taken? == true
+  else position_taken? == true
     false
   if (between? == true || position_taken? == true)
     true
-  elsif
+  else
     false
   end
 end
