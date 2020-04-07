@@ -1,5 +1,5 @@
-def between?(0, 8)
-  if index = between?(0, 8)
+def between?
+  if between?(0, 8)
     true
   else
     false
