@@ -3,8 +3,8 @@ def valid_move?(board, index)
   def between?
   if position = between?
     true
-  else 
-    false 
+  else
+    false
 
   def position_taken?(board, index)
     if (board[index] == " ")
