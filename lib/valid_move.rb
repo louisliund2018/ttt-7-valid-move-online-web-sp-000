@@ -15,11 +15,9 @@ def valid_move?(board, index)
     else (board[index] == "X" || board[index] == "O")
       true
     end
-end
 
-  if position_taken? == false
-    true
-  elsif position_taken? == true
-    false
-  end
-end
+if position_taken? == false
+  true
+elsif position_taken? == true
+  false
+
