@@ -1,7 +1,7 @@
 def between?
   if between?(0, 8)
     true
-  else 
+  else
     false
   end
 end
