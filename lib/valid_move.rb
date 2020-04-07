@@ -1,5 +1,5 @@
 def between?(0, 8)
-  if between(0. 8) 
+  if between(0. 8)
     true
   else
     false
