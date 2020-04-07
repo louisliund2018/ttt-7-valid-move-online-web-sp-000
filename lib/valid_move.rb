@@ -1,6 +1,8 @@
 def valid_move?(board, index)
   position_taken
-  if condition
+  def between?()
+
+  if (board[index] == " " || board[index] == "") 
     true
   end
   elsif condition
