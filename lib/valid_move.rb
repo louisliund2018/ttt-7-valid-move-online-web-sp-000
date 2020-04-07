@@ -1,3 +1,11 @@
+def between?
+  if between?(0, 8)
+    true
+  else 
+    false
+  end
+end
+
 def position_taken?(board, index)
   if (board[index] == " ")
     false
