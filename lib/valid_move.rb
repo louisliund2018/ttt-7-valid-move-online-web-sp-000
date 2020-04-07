@@ -12,7 +12,6 @@ end
 
 def valid_move?(board, index)
   index = gets.strip.to_i - 1
-  def between?
   if index == between?(0, 8)
     true
   else
