@@ -24,10 +24,8 @@ elsif position_taken? == true
   false
 
   if (between == true || position_taken == true)
-    true 
-  elsif 
+    true
+  elsif
     false
   end
 end
-
-  
