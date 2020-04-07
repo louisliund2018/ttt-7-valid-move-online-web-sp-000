@@ -1,8 +1,8 @@
 def valid_move?(board, index)
   position = gets.to_i
-  def between? 
+  def between?
   if position = between?
-    
+
   def between?()
 
 
