@@ -5,8 +5,7 @@ def valid_move?(board, index)
     true
   else
     false
-  end
-end
+
 
   def position_taken?(board, index)
     if (board[index] == " ")
@@ -23,3 +22,12 @@ if position_taken? == false
   true
 elsif position_taken? == true
   false
+
+  if (between == true || position_taken == true)
+    true 
+  elsif 
+    false
+  end
+end
+
+  
