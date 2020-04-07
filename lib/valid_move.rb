@@ -1,10 +1,12 @@
 def valid_move?(board, index)
-  position_taken
+  position = gets.to_i
   def between?()
 
-  if (board[index] == " " || board[index] == "")
+
+
+  if position_taken? == false
     true
-  elsif (board[index] == "X" || board[index] == "O")
+  elsif position_taken? == true
     false
   end
 end
