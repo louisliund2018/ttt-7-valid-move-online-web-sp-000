@@ -20,4 +20,3 @@ if position_taken? == false
   true
 elsif position_taken? == true
   false
-
