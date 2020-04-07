@@ -3,9 +3,9 @@ def valid_move?(position_taken)
   if condition
     true
   end
-  if 
+  if
     false
-  if 
-    nil 
+  if
+    nil
   end
 end
