@@ -1,7 +1,7 @@
 def valid_move?(board, index)
-  position = gets.to_i - 1
+  index = gets.strip.to_i - 1
   def between?
-  if position == between?(0, 8)
+  if index == between?(0, 8)
     true
   else
     false
