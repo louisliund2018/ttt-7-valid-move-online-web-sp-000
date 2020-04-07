@@ -10,8 +10,6 @@ def position_taken?(board, index)
   end
 end
 
-
-
 def valid_move?(board, index)
   index = gets.strip.to_i - 1
   def between?
