@@ -1,5 +1,5 @@
-def between?
-  if between?(0, 8)
+def between?(0, 8)
+  if between(0. 8) 
     true
   else
     false
@@ -19,7 +19,7 @@ def position_taken?(board, index)
 end
 
 def valid_move?(board, index)
-  if (between?(index) == true || position_taken?(board, index) == true)
+  if (between? == true || position_taken?(board, index) == true)
     true
   else
     false
