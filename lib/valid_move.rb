@@ -1,3 +1,17 @@
+def position_taken?(board, index)
+  if (board[index] == " ")
+    false
+  elsif (board[index] == "")
+    false
+  elsif (board[index] == nil)
+    false
+  else (board[index] == "X" || board[index] == "O")
+    true
+  end
+end
+
+
+
 def valid_move?(board, index)
   index = gets.strip.to_i - 1
   def between?
@@ -7,16 +21,8 @@ def valid_move?(board, index)
     false
 
 
-  def position_taken?(board, index)
-    if (board[index] == " ")
-      false
-    elsif (board[index] == "")
-      false
-    elsif (board[index] == nil)
-      false
-    else (board[index] == "X" || board[index] == "O")
-      true
-    end
+  
+    
 
 if position_taken? == false
   true
