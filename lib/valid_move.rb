@@ -1,3 +1,11 @@
+def between?(index)
+  if index == between?(0, 8)
+    true
+  else
+    false
+  end
+end
+
 def position_taken?(board, index)
   if (board[index] == " ")
     false
@@ -7,14 +15,6 @@ def position_taken?(board, index)
     false
   else (board[index] == "X" || board[index] == "O")
     true
-  end
-end
-
-def between?(index)
-  if index == between?(0, 8)
-    true
-  else
-    false
   end
 end
 
