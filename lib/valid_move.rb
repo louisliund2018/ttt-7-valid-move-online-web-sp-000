@@ -2,10 +2,9 @@ def valid_move?(board, index)
   position = gets.to_i - 1
   def between?
   if position = between?
-
-  def between?()
-
-
+    true
+  else 
+    false 
 
   def position_taken?(board, index)
     if (board[index] == " ")
